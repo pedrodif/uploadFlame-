@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Flame School | Área do Professor</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/areaAlunoProf.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+    integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+   
+    <script defer src="js/alunoProf.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <header>
+
+            <div class="imgcaixa">    
+                <img  class="imgtopo" src="img/logo.png">
+            </div>
+
+            <div class="imagemusuario">
+                <div class="loc-img-usuario">
+                     <p><i class="fas fa-user"></i></p>
+                </div>
+
+            </div>
+                
+            <div class="menutopo">
+                <ul>
+                    <li id="turma">Minhas Turmas</li>
+                    <a href="index.html"><li>Sair</li></a>
+                </ul>
+            </div>    
+
+        </header>
+
+        <div class="container">
+
+            <div class="msgabertura">
+                <p class="msg">Bem Vindo ao SIA Professor(a)</p>
+            </div>
+
+
+            <table class="tabela nome">
+                <thead>
+                    <tr class="alunos">
+                        <th>Turma 1001A Noite</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="corpo-tabela">
+                    <tr class="alunos">
+                        <td class="nomeal">Joyce Torres Lousada</td>
+                    </tr>
+
+                    <tr class="alunos">
+                        <td class="nomeal">Maiara Monsanto Medina</td>
+                    </tr>
+
+                    <tr class="alunos">
+                        <td class="nomeal">João Quintais Quina</td>
+                    </tr>
+
+                    <tr class="alunos">
+                        <td class="nomeal">Abílio Barreira Jorge</td>
+                    </tr>
+
+                    <tr class="alunos">
+                        <td class="nomeal">Ester Botelho Espírito Santo</td>
+                    </tr>
+
+                </tbody>
+                <span id="erro" class="display">Erro ao buscar alunos</span>
+            </table>
+            
+            <div class="botao">
+                <button class="btnform">Carregar mais alunos</button>
+            </div>
+        </div>
+
+    </main>
+   
+</body>
+
+<footer class="rodape">
+    <div class="copyright">
+        <p>© Copyright 2021. Direitos reservados a Pedro Ferreira.</p>
+   </div>
+</footer>
+</html>

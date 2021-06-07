@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+
+body{
+    background-color: rgb(194, 191, 191);
+}
+
+main{
+    width: 100%;
+}
+
+.container{
+    width: 30%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 7%;
+    text-align: center;
+    border: none;
+    background-color: rgb(53, 47, 47);
+    box-shadow: 6px 4px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.img{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 8%;
+}
+
+.imgtopo{
+    width: 60px;
+    height: 70px;
+}
+
+.titulo{
+    color: #fff; 
+    padding-bottom:  10%;
+}
+
+.titulo p{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form{
+    color: #fff;
+    
+}
+
+form input{
+    background-color:rgb(53, 47, 47);
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    width: 41%;
+    height: 35px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: solid 0.5px #fff;
+    text-indent: 10px;
+    box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+}
+
+form input:focus{
+    outline: none;
+}
+
+.formbtn{
+    width: 27%;
+    height: 35px;
+    background-color: rgb(89, 247, 12);
+    border: none;
+    font-style: normal;
+    cursor: pointer;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding-right: 20%;
+    padding-right: 3%;
+}
+
+
+.formbtn.p1{
+   width: 40%;
+}
+
+
+.locbotao{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.locbotao a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.redefinirsenha{
+    margin-top: 1%;
+}
+
+.redefinirsenha a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.m-erro ul{
+  list-style: none;
+  margin-top: 2%;
+}
+
+#mensagens-erro{
+    color: rgb(255, 90, 24);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(53, 47, 47);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    border-top: solid 0.5px rgb(186, 192, 196);
+    color: white;
+    font-size: 12px;
+    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 3%;
+    border: none;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright{
+    padding-top: 3%;
+}
